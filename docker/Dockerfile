@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-RUN apt-get update && apt-get install -y unzip wget
+RUN apt-get update && apt-get install -y unzip wget z3
 
 # adds user "checker"
 RUN useradd --create-home --shell /bin/bash checker
